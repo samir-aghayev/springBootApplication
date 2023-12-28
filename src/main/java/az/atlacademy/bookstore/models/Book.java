@@ -11,9 +11,9 @@ import lombok.NoArgsConstructor;
 
 @Table
 @Data
+@Builder
 @AllArgsConstructor
 @NoArgsConstructor
-@Builder
 public class Book {
 
     @Id

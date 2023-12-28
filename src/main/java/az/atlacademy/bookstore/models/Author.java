@@ -13,9 +13,9 @@ import java.util.List;
 
 @Table
 @Data
+@Builder
 @AllArgsConstructor
 @NoArgsConstructor
-@Builder
 public class Author {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
